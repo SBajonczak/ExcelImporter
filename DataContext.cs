@@ -10,7 +10,7 @@ public class DataContext : DbContext
 	public DataContext(DbContextOptions<DataContext> opt) : base(opt)
 	{
 	}
-	
+
 	/// <summary>
 	/// The products table.
 	/// </summary>
